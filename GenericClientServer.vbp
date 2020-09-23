@@ -1,0 +1,54 @@
+Type=OleDll
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINNT\System32\stdole2.tlb#OLE Automation
+Class=clsConnection; clsConnection.cls
+Class=clsGenericClient; clsGenericClient.cls
+Class=clsGenericServer; clsGenericServer.cls
+Class=cSuperClass; cSuperClass.cls
+Class=iSuperClass; iSuperClass.cls
+RelatedDoc=WndProc.asm
+RelatedDoc=WndProc.inc
+RelatedDoc=WndProcAll.asm
+Module=modWinsock; modWinsock.bas
+Startup="(None)"
+ExeName32="GenericClientServer.dll"
+Path32="..\..\..\..\Documents and Settings\vermeere\Desktop\Generic Client Server"
+Command32=""
+Name="GenericClientServer"
+HelpContextID="0"
+CompatibleMode="1"
+CompatibleEXE32="GenericClientServer.dll"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="GE Information Services Int. Inc."
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+ThreadingModel=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+DeleteClass1=Class1
+DeleteClass2=Module1
+DeleteClass3=Module2
+DeleteClass4=Module3
+DeleteClass5=modWinsock
+DeleteClass6=modMessageHandler
+DeleteClass7=modHostResolver
+DeleteClass8=modWSAError
